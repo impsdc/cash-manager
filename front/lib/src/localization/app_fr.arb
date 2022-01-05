@@ -1,0 +1,158 @@
+{
+  "@@locale" : "fr",
+
+  "pageTitle" : "{title}",
+  "@pageTitle": {
+    "type": "text",
+    "description": "Dynamic page title",
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Cart"
+      }
+    }
+  },
+
+  "validate_transaction": "La transaction à bien été enregistré",
+  "@validate_transaction": {
+    "type": "text"
+  },
+
+  "payment_success": "Le paiment a été fait, vous pouvez regarder le detail de la commande dans l'onglet transaction",
+  "@validate_success": {
+    "type": "text"
+  },
+
+  "validate_transaction_fail": "Il y a eu un problème lors de l'enregistrement de la transaction",
+  "@validate_transaction_fail": {
+    "type": "text"
+  },
+
+
+  "setting_title": "Paramètre",
+  "@settingTitle": {
+    "type": "text"
+  },
+
+  "theme_mode": "Theme",
+  "@themeMode": {
+    "type": "text"
+  },
+
+  "language": "Language",
+  "@language": {
+    "type": "text"
+  },
+
+
+  "cart_title": "Panier",
+  "@cart_title": {
+    "type": "text"
+  },
+
+  "fail_scan": "Echec du scan",
+  "@failScan": {
+    "type": "text"
+  },
+
+  "cancel": "Annuler",
+  "@cancel": {
+    "type": "text"
+  },
+
+  "scan_unknown": "Produit non trouvé",
+  "@scan_unknown": {
+    "type": "text"
+  },
+
+  "dismiss": "Fermer",
+  "@dismiss": {
+    "type": "text"
+  },
+
+  "product_added_cart": "Produit ajouté au panier",
+  "@product_added_cart": {
+    "type": "text"
+  },
+
+
+  "cart_product_delete": "Produit retiré avec succès",
+  "@cart_product_delete": {
+    "type": "text"
+  },
+
+  "not_enough_quantity": "Ce produit est épuisé !",
+  "@not_enough_quantity": {
+    "type": "text"
+  },
+
+  "empty_cart": "Votre panier est vide !",
+  "@empty_cart": {
+    "type": "text"
+  },
+
+  "empty_transaction": "Il n'y a pas encore de transaction sur cet utilisateur.",
+  "@empty_transaction": {
+    "type": "text"
+  },
+
+
+  "payment_title": "Methode de paiement",
+  "@payment_title": {
+    "type": "text"
+  },
+
+
+  "payment_method": "Choisissez votre moyen de paiement",
+  "@payment_method": {
+    "type": "text"
+  },
+
+
+  "payment_button": "Procéder au paiement",
+  "@payment_button": {
+    "type": "text"
+  },
+
+  "transaction_title": "Transaction",
+  "@transaction_title": {
+    "type": "text"
+  },
+
+  "quantity" : "Quantité: {nb}",
+  "@quantity": {
+    "type": "text",
+    "description": "Dynamic page quantity",
+    "placeholders": {
+      "nb": {
+        "type": "int",
+        "example": "9"
+      }
+    }
+  },
+
+  "login_title": "Connexion",
+  "@login_title": {
+    "type": "text"
+  },
+
+  "password": "Mot de passe",
+  "@password": {
+    "type": "text"
+  },
+
+  "connect": "Connexion",
+  "@connect": {
+    "type": "text"
+  },
+
+  "logout": "Déconnexion",
+  "@logout": {
+    "type": "text"
+  },
+
+  "admin_add_article": "Ajouter un produit",
+  "@admin_add_article": {
+    "type": "text"
+  }
+}

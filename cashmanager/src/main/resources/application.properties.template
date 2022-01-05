@@ -1,0 +1,16 @@
+server.port=8080
+
+#spring.datasource.url=jdbc:postgresql://pg_container/cashmanager
+#spring.datasource.username=postgres
+#spring.datasource.password=root
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+#spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.sql.init.mode=always
+
+# Secret key for generating a JWT, see https://www.allkeysgenerator.com.
+# The secret must be >= 512 bits
+jwt.secret=dSgUkXp2s5v8y/B?E(H+MbQeThWmYq3t6w9z$C&F)J@NcRfUjXn2r4u7x!A%D*G-
+api.key=UjXn2r4u7x!A%D*G-KaPdSgVkYp3s6v8y/B?E(H+MbQeThWmZq4t7w!z$C&F)J@N
